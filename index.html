@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formularios en HTML</h1>
+    </header>
+    <section>
+        <h2>Datos personales</h2>
+        <form action>
+            <label>
+                <b>Nombre:</b>
+                <input type="text" id="nombre" name="Nombre" placeholder="Escriba su numbre aqui">
+            </label><br>
+            <label>
+                <b>Email:</b>
+                <input type="email" name="Correo Electronico" placeholder="Ejemplo001@email.com">
+            </label><br>
+            <label>
+                <b>Telefono:</b>
+                <input type="tel" name="Telefono" placeholder="123-32443-434">
+            </label><br>
+        </form>
+    </section>
+    <br>
+    <section>
+        <h2>Genero</h2><br>
+        <form action>
+
+            <input type="radio" name="lista" id="masculino" value="Masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" name="lista" id="femenino" value="femenino">
+            <label for="femenino">Femenino</label><br>
+            <input type="radio" name="lista" id="otro" value="otro">
+            <label for="otro">Otro</label><br>
+        </form>
+
+    </section>
+    <br>
+    <section>
+        <form action>
+            <h2>Preferencias</h2><br>
+            <input type="checkbox" name="musica" id="musica" value="musica">
+            <label for="musica">Musica</label><br>
+            <input type="checkbox" name="deportes" id="deporte" value="deporte">
+            <label for="deporte">Deporte</label><br>
+            <input type="checkbox" name="lectura" id="lectura" value="lectura">
+            <label for="lectura">Lectura</label><br>
+        </form>
+    </section>
+    <br>
+    <section>
+        <form action>
+            <h2>Comentarios</h2><br>
+            <textarea cols="50" rows="5"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+</body>
+
+</html>
